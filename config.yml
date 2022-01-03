@@ -1,0 +1,16 @@
+---
+
+
+is_debug: true
+listen:
+  type: port
+  port: 9001
+
+mongodb:
+  host: localhost
+  port: 27017
+  database: user-service
+  auth_db:
+  username:
+  password:
+  collection: user-service
